@@ -1,16 +1,13 @@
 import React from 'react';
-import Header from '../components/Header';
 import Banner from '../components/Banner';
 import FreelancerCard from '../components/FreelancerCard';
 import CustomerCard from '../components/CustomerCard';
 import SubscriptionForm from '../components/SubscriptionForm';
 import Footer from '../components/Footer';
 
-const HomePage = () => {
-
+const StartPage = () => {
   return (
     <div>
-      <Header />
       <Banner />
       <h2 className="freelancer-title">Featured Freelancers</h2>
       <FreelancerCard /> 
@@ -28,4 +25,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default StartPage;

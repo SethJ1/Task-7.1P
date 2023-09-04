@@ -1,15 +1,18 @@
-import React from 'react';
+
 import './Header.css';
+
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <div className="header">
-      <a href="#">Devlink Marketplace</a>
+      <Link to="">Devlink Marketplace</Link>
       <div className="header-links">
-        <a href="#">Find DEV</a>
-        <a href="#">Find Jobs</a>
-        <a href="#">Login</a>
-        <a href="#">Create Account</a>
+        <Link to="#">Find DEV</Link>
+        <Link to="#">Find Jobs</Link>
+        <Link to="/">Login</Link>
+        <Link to="/create-account">Create Account</Link>
       </div>
     </div>
   );
